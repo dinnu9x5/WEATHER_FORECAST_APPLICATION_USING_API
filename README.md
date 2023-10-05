@@ -14,3 +14,8 @@ This weather forecast application provides up-to-date weather information using 
 3. Click the "Get Weather" button.
 4. View the current weather conditions, including temperature, humidity, and weather description.
 5. Scroll down to see the 5-day weather forecast.
+
+
+## CHECK OUT THE WEBSITE HERE
+
+https://climatecanvas.netlify.app/

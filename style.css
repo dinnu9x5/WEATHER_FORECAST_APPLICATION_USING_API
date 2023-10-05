@@ -1,0 +1,212 @@
+*
+{
+    margin:0;
+    padding: 0;
+    border:0;
+    box-sizing: border-box;
+    font-family: 'AR One Sans', sans-serif;
+}
+body
+{
+    background-image: url(25503.jpg);
+    background-size: cover;
+}
+.navbar
+{
+    height:60px;
+    width:100%;
+    top:0;
+    background-image: linear-gradient(to right, #00b4db, #0083b0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+.navbar h1
+{
+    letter-spacing: 0.2rem;
+}
+
+.container{
+    margin:1.5rem;
+    height:100vh;
+    display: flex;
+    
+    gap:3rem;
+    margin-top: 100px;
+    
+}
+.input-div
+{
+    height:100vh;
+    width:20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box
+{
+    height:30px;
+    width:100%;
+    border: 1px solid black;
+    border-radius:3px;
+    padding:10px;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    
+}
+.btn
+{
+    background-color: #4CAF50; /* Green */
+    width:100%;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    cursor:pointer;
+    
+}
+
+.weather-info
+{
+    width:80%;
+    height:100vh;
+    
+    
+}
+.present-day
+{
+    display: flex;
+    
+    background-color: #5F9EA0;
+    padding: 20px 70px 20px 20px;
+    
+    border-radius:3px;
+   
+    justify-content: space-between;
+    
+}
+.present-day-info
+{
+    line-height: 40px;
+    
+}
+.present-day-info p
+{
+    font-weight: 500;
+}
+.weather-status
+{
+    max-width:120px;
+}
+
+.days-forecast
+{
+   margin-top:2rem;
+}
+.cards
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    
+}
+.day-card
+{
+    margin:10px 20px 10px 0px;
+    background-color: #6082B6;
+    padding:10px 30px 20px 20px;
+    border-radius:3px;
+    color:white;
+    margin-right:30px;
+}
+
+.icon
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+.day-card
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+@media only screen and (max-width:600px) {
+
+    .container
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .input-div
+    {
+        width:100%;
+        height:auto;
+    }
+    .weather-info
+    {
+        width:100%;
+    }
+    .present-day
+    {
+        width: 100%;
+        padding:20px 10px 20px 20px;
+
+    }
+    .icon img
+    {
+        width:80px;
+        height: auto;
+    }
+    .present-day-info h2
+    {
+        font-size: 1rem;
+    }
+    .present-day-info p
+    {
+        font-size: 0.8rem;
+        padding-top:10px;
+    }
+    .day-card img
+    {
+        width:80px;
+        height: auto;
+    }
+
+}
+
+.credits
+{
+    height:60px;
+    border-top:1px solid white;
+   
+    font-size:12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+
+    
+}
+.credits a
+{
+    text-decoration: underline;
+    color:black;
+    font-weight: 600;
+}
+
+@media only screen and (max-width:1007px)
+{
+    .credits
+    {
+        visibility: hidden;
+    }
+}
